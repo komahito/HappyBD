@@ -72,7 +72,7 @@ public class MainPanel extends JPanel implements Runnable {
         super.paintComponent(g);
         int letterHeight = Letter.calcWidth(this);
         Graphics2D g2 = (Graphics2D) g;
-        g2.setColor(Color.ORANGE);
+        g2.setColor(Color.DARK_GRAY);
         g2.fillRect(0, height - letterHeight, frame.getWidth(), frame.getHeight()); // draw ground
         for (int i = 0; i < Letter.letternum; i++) {
             Letter l = letterArr.get(i);
