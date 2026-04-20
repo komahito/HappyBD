@@ -14,7 +14,7 @@ public class MainPanel extends JPanel implements Runnable {
     JFrame frame = null;
     Simulation sim = null;
     ArrayList<Letter> letterArr = null;
-    String letters = "HAPPYBD-BD!";
+    String letters = "HAPPY-BD!";
     KeyHandler keyH = null;
 
     public MainPanel() {}
